@@ -1,25 +1,36 @@
 {
   "name": "elvissilva",
   "version": "1.0.0",
-  "description": "",
+  "description": "Blog de portifólio Elvis Silva",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elvis-Silva/elvissilva.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Elvis Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Elvis-Silva/elvissilva/issues"
   },
   "homepage": "https://github.com/Elvis-Silva/elvissilva#readme",
   "dependencies": {
+    "@reach/dialog": "^0.13.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.6.0",
     "next": "^10.0.6",
+    "next-images": "^1.7.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {}
 }
